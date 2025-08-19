@@ -28,8 +28,16 @@
 
 .notion-text {
   padding: 0.5em 2px;
-  font-size: 1.2rem; 
+  font-size: 1.1rem; 
   line-height: 1.8;
+}
+
+.notion-bulleted-list,
+.notion-bulleted-list .notion-list-item,
+.notion-numbered-list,
+.notion-numbered-list .notion-list-item {
+  font-size: 1.1rem !important;
+  line-height: 1.55; /* 가독성 위해 추가 */
 }
 
 .notion-asset-caption {
@@ -75,6 +83,27 @@
 .notion-gallery-grid .notion-collection-card-property {
   white-space: unset;
   text-overflow: unset;
+}
+
+/* 갤러리 카드 제목(모든 카드 공통) 통일 */
+.notion-gallery-grid .notion-collection-card .notion-page-title-text {
+  font-weight: 700;            /* 항상 굵게 */
+  color: var(--fg-color);      /* 글자색 통일 */
+  line-height: 1.3;
+  margin: 0;
+  /* 2줄까지만 보이고 넘치면 말줄임 (원하면 삭제) */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 제목 안에 들어있는 노션 하이라이트(노란 배경 등) 전부 비활성화 */
+.notion-gallery-grid .notion-collection-card .notion-page-title-text [class*="_background"] {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
 .notion-gallery-grid .notion-property-text {
