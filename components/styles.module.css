@@ -46,7 +46,12 @@
 }
 
 .footer {
-  width: 100%;
+  position: fixed;   /* 화면에 고정 */
+  bottom: 0;         /* 하단에 붙임 */
+  left: 50%;
+  transform: translateX(-50%); /* 가운데 정렬 */
+  
+  width: auto; 
   max-width: 1100px;
   margin: auto auto 0;
   padding: 8px;
@@ -55,6 +60,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-color);
 }
 
 .copyright {
