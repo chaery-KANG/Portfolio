@@ -36,7 +36,6 @@
 .notion-numbered-list,
 .notion-numbered-list .notion-list-item {
   font-size: 1.1rem !important;
-  line-height: 1.55; /* 가독성 위해 추가 */
 }
 
 .notion-asset-caption {
