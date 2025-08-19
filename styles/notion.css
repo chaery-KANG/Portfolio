@@ -7,6 +7,7 @@
  * places to add some flare.
  */
 
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
@@ -23,6 +24,18 @@
 
 .index-page {
   --notion-max-width: 900px;
+}
+/* 인덱스(홈) 페이지 본문 중앙 정렬 */
+.index-page .notion-text,
+.index-page .notion-quote,
+.index-page .notion-toggle,
+.index-page .notion-callout,
+.index-page .notion-list,
+.index-page .notion-hr,
+.index-page .notion-asset-wrapper {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .notion-text {
@@ -64,7 +77,8 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 2em;
+  font-size: 1.1em;
+  line-height: 1.3;
   white-space: unset;
 }
 
