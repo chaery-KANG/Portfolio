@@ -54,7 +54,7 @@
   width: 100%; 
   max-width: 1100px;
   margin: auto auto 0;
-  padding: 12px 16px;
+  padding: 2vmin;
 
   display: flex;
   flex-direction: row;
