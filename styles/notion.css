@@ -73,7 +73,7 @@
   display: none;
 }
 
-.notion-gallery-grid .notion-page-title-text {
+.notion-page-title-text {
   background-color: #fff697; /* 노란색 배경 */
   font-weight: bold;         /* 볼드 */
   font-size: 1.1em;
