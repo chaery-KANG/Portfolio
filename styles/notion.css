@@ -78,12 +78,12 @@
 }
 
 .notion-collection-card {
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: none;
 }
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .notion-collection-card {
@@ -123,7 +123,7 @@
   padding: 0.2em 0.75em;
   line-height: 1.5;
   font-style: italic;
-  font-size: 1.4em;
+  font-size: 1.6em;
   border-left: 4px solid #67bdfc;
 }
 
