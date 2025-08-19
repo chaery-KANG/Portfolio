@@ -24,18 +24,9 @@
 
 .index-page {
   --notion-max-width: 900px;
-}
-/* 인덱스(홈) 페이지 본문 중앙 정렬 */
-.index-page .notion-text,
-.index-page .notion-quote,
-.index-page .notion-toggle,
-.index-page .notion-callout,
-.index-page .notion-list,
-.index-page .notion-hr,
-.index-page .notion-asset-wrapper {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* 가로 가운데 */
 }
 
 .notion-text {
