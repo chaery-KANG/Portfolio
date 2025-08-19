@@ -28,6 +28,8 @@
 
 .notion-text {
   padding: 0.5em 2px;
+  font-size: 1.2rem; 
+  line-height: 1.8;
 }
 
 .notion-asset-caption {
